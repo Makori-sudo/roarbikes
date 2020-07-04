@@ -226,7 +226,7 @@ nav .navbutton:hover {
 /* Contact Page */
 .main2 {
   min-height: 300px;
-  padding: 50px;
+  padding: 10px;
 }
 
 form {
@@ -329,7 +329,7 @@ footer .bottom {
   }
 
   header {
-    padding-left: 20px;
+    padding: 20px;
   }
 
   nav .navbutton {
@@ -343,6 +343,10 @@ footer .bottom {
   main {
     display: block;
     padding-left: 20px;
+  }
+
+  .main3 {
+    padding: 20px;
   }
 
   h1 {
@@ -362,9 +366,11 @@ footer .bottom {
 
   .card1,
   .card2,
-  .card3 {
+  .card3,
+  .tbox {
     margin-top: 30px;
-    width: 50%;
+    width: 100%;
+    margin-right: 20px;
   }
 
   h2 {
@@ -392,11 +398,26 @@ footer .bottom {
 
   nav .navbutton {
     display: block;
-    border: none;
+    border-bottom: 1px solid lightgray;
+  }
+
+  nav .navbutton:last-child {
+    border-bottom: none;
+    margin-bottom: 20px;
   }
 
   main {
     text-align: left;
-    padding-left: 20px;
+    padding: 20px;
+  }
+
+  .herobox2 {
+    display: none;
+  }
+  input[type="text"],
+  input[type="email"],
+  input[type="number"],
+  textarea {
+    width: 100%;
   }
 }
