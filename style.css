@@ -425,4 +425,8 @@ footer .bottom {
   textarea {
     width: 100%;
   }
+
+  .tbox {
+    height: 100%;
+  }
 }
